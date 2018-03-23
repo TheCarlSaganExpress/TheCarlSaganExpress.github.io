@@ -3,47 +3,69 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Jason Goodman</title>
+    <title>Welcome!</title>
     <link href="bootstrap.css" rel="stylesheet">
     <link href="basic-style.css" rel="stylesheet">
   </head>
 
   <body class="bg-custom">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-customNav">
-      <a class="navbar-brand" href="#">Jason Goodman</a>
+      <a class="navbar-brand" href="index.html">Jason Goodman</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#About">About</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">GitHub</a>
-          </li>            
+            <a class="nav-link" href="https://github.com/TheCarlSaganExpress" target="_blank">GitHub</a>
+          </li>
         </ul>
       </div>
     </nav>
 
     <main role="main">
-      <div class="jumbotron bg-custom">
+      <div class="jumbotron bg-custom custom-center">
         <div class="container">
           <h1 class="display-3">Hi, I'm Jason.</h1>
-          <p>This site is currently under construction.</p>
+          <p>An entry-level developer who enjoys learning a bit too much for their own good.</p>
+          <span class="custom-ghost" style="padding-right:50px;">Thank you for visiting my site.</span>
         </div>
       </div>
     </main>
-
-    <div class ="footer navbar navbar-inverse navbar-fixed-bottom bg-customNav" role="navigation">
-          <font color="white" style="text-align:left;">jasonbarretgoodman@gmail.com</font>
-      <div class="container">
-      </div>
+    
+    <div class="custom-center" style="padding-right: 100px;">
+      <h2>
+        <a id ="About">ABOUT</a>
+      </h2>
+      <hr color="white" width="200px">
+      <p>I studied Computer Science at SUNY New Paltz and received my BS in 2017.
+        <br>Lately, I've been working on <a href="https://frandallfarmer.github.io/neohabitat-doc/docs/" target="_blank">Neohabitat</a> 
+            and writing some <a href="https://github.com/ssalevan/habibots" target="_blank">bots</a> for it. 
+        </br>
+      </p>
     </div>
-      
+    
+    <div class="custom-center" style="padding-right: 100px;">
+      <h2>
+        <a id ="Contact">CONTACT</a>
+      </h2>
+      <hr color="white" width="200px">
+      <p>You can contact me at jasonbarretgoodman@gmail.com</p>
+      <p>Expect a response to take 1-2 days at max.</p>
+      <p>If I missed your email then I might be a little busy<span class="custom-ghost"> or sleeping.</span></p>
+    </div>
+
+    <div class ="custom-footer navbar navbar-inverse navbar-fixed-bottom bg-customNav" role="navigation">
+      <font color="white" style="text-align:left;">Hosted on GitHub pages</font>
+      <div class="container"></div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   </body>
 </html>

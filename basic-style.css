@@ -12,11 +12,21 @@ body {
   font-size: 1.25rem;
 }
 
-.footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px; 
+.custom-ghost {
+  opacity: 0;
+  transition: all 0.4s ease-out; 
+}
+
+.custom-ghost:hover {
+  opacity:100;
+  transition: all 0.4s ease-out; 
+}
+
+.custom-footer {
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  height:60px; 
 }
 
 .bg-customNav {
