@@ -1,0 +1,28 @@
+body {
+  padding-top: 3.5rem;
+}
+
+.custom-center {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.custom-left {
+  margin-left: 150px;
+  font-size: 1.25rem;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+}
+
+.bg-customNav {
+  background-color: #2b220e !important;
+}
+
+.bg-custom {
+  background-color: #d8b565 !important;
+}
