@@ -25,7 +25,17 @@ body {
   opacity: 0;
   transition: all 0.4s ease-out; 
 }
+#about-block {
+  text-align: left;
+  width: 25%;
+  display:inline-block;
+}
 
+#contact-block {
+  text-align: left;
+  width: 25%;
+  display:inline-block;
+}
 .custom-ghost:hover {
   opacity:100;
   transition: all 0.4s ease-out; 
@@ -43,6 +53,6 @@ body {
   background-color: #2b220e; 
 }
 
-.bg-customYellow {
-  background-color: #d8b565;
+.bg-customTan {
+  background-color: #ddc796;
 }
