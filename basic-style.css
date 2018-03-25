@@ -25,6 +25,13 @@ body {
   opacity: 0;
   transition: all 0.4s ease-out; 
 }
+
+#portfolio-block {
+  text-align: left;
+  width: 25%;
+  display:inline-block;
+}
+
 #about-block {
   text-align: left;
   width: 25%;
