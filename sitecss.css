@@ -12,13 +12,53 @@ body {
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  transition: all 0.6s ease-out; 
+  text-decoration: none;
+  outline:none;
+  color: #00b9b9;
+  white-space: nowrap;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: all 0.6s ease-out; 
+}
+
+#portfolio-block {
+  margin-left:30%;
+  width: 50%;
+  text-align: left;
+  display:inline-block;
+     border-bottom: 1px solid black;   
+}
+
+#about-block {
+  text-align: left;
+  display: inline;
+  margin-right: 50%;
+}
+
+#contact-block {
+  text-align: left;
+  width: 25%;
+  display:inline-block;
+  margin-left: 5.5%;
+}
+
+#home-block {
+  text-align: left;
+  width: 60%;
+  display:inline-block;
 }
 
 .landscape {
-    height: 70%;
-    width: 70%;
+  height: 70%;
+  width: 70%;
 }
 
 .home-paragraph {
@@ -47,30 +87,8 @@ img {
   font-size: 1.25rem;
 }
 
-
-#portfolio-block {
-  margin-left:25%;
-  text-align: left;
-  display:inline-block;
-}
-
-#about-block {
-  text-align: left;
-  display: inline;
-  margin-right: 50%;
-}
-
-#contact-block {
-  text-align: left;
-  width: 25%;
-  display:inline-block;
-  margin-left: 5.5%;
-}
-
-#home-block {
-  text-align: left;
-  width: 60%;
-  display:inline-block;
+.minor-padding {
+  padding-bottom: 2.5%;
 }
 
 .custom-ghost {
@@ -83,20 +101,6 @@ img {
   transition: all 0.4s ease-out; 
 }
 
-a {
-  transition: all 0.6s ease-out; 
-  text-decoration: none;
-  outline:none;
-  color: #00b9b9;
-  white-space: nowrap;
-}
-
-a:hover {
-
-  text-decoration: underline;
-  transition: all 0.6s ease-out; 
-}
-
 .ghost-experiment {
   transition: all 0.6s ease-out; 
   padding-bottom: 4px;
@@ -106,7 +110,7 @@ a:hover {
 }
 
 .ghost-experiment:hover {
-    opacity: 0;
+  opacity: 0;
 }
 
 .custom-footer {
