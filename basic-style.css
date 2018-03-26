@@ -11,6 +11,16 @@ body {
   margin: 0;
 }
 
+.home-paragraph {
+  padding-top: 2.5%;
+  padding-right: 1.5%;
+}
+
+.home-center {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
 .custom-center {
   padding: 3rem 1.5rem;
   text-align: center;
@@ -21,10 +31,6 @@ body {
   font-size: 1.25rem;
 }
 
-.custom-ghost {
-  opacity: 0;
-  transition: all 0.4s ease-out; 
-}
 
 #portfolio-block {
   text-align: left;
@@ -43,6 +49,18 @@ body {
   width: 25%;
   display:inline-block;
 }
+
+#index-block {
+  text-align: left;
+  width: 25%;
+  display:inline-block;
+}
+
+.custom-ghost {
+  opacity: 0;
+  transition: all 0.4s ease-out; 
+}
+
 .custom-ghost:hover {
   opacity:100;
   transition: all 0.4s ease-out; 
