@@ -28,6 +28,12 @@ a:hover {
   text-decoration: underline;
   transition: all 0.6s ease-out; 
 }
+#generic-block {
+  margin-left:25%;
+  width: 55%;
+  text-align: left;
+  display:inline-block;
+}
 
 #portfolio-block {
   margin-left:25%;
@@ -77,6 +83,11 @@ a:hover {
   text-align: center;
 }
 
+.generic-center {
+  padding: 1rem 1rem;
+  text-align: center;
+  margin-right: 20%;
+}
 
 .portfolio-center {
   padding: 1rem 1rem;
@@ -136,4 +147,5 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
   .custom-center{padding: 1rem 1rem !important;}
   #portfolio-block{width: 100% !important; margin-left: 15% !important;}
+  #generic-block{width: 100% !important; margin-left: 15% !important;}
 }
