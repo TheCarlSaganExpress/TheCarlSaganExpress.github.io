@@ -30,11 +30,11 @@ a:hover {
 }
 
 #portfolio-block {
-  margin-left:30%;
-  width: 50%;
+  margin-left:25%;
+  width: 55%;
   text-align: left;
   display:inline-block;
-     border-bottom: 1px solid black;   
+  border-bottom: 1px solid black;   
 }
 
 #about-block {
@@ -71,15 +71,17 @@ a:hover {
   text-align: center;
 }
 
-.portfolio-center {
-  padding: 1.5rem 1.5rem;
+.custom-center {
+  padding: 3rem 1rem;
+  padding-right: 5%;
   text-align: center;
-  margin-right: 20%;
 }
 
-.custom-center {
-  padding: 3rem 1.5rem;
+
+.portfolio-center {
+  padding: 1rem 1rem;
   text-align: center;
+  margin-right: 20%;
 }
 
 .custom-left {
@@ -127,4 +129,11 @@ a:hover {
 
 .bg-customTan {
   background-color: #ddc796;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .custom-center{padding: 1rem 1rem !important;}
+  #portfolio-block{width: 100% !important; margin-left: 15% !important;}
 }
